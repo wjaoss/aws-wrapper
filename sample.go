@@ -8,7 +8,7 @@ import (
 func main() {
 
 	awsKeyID := "your ID"
-	awsSecretKey := "your Key"
+	awsSecretKey := "your Key Secret"
 	awsRegion := "us-east-1"
 
 	session.SetConfiguration(awsKeyID, awsSecretKey, awsRegion)
